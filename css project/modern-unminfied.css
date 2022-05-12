@@ -1323,7 +1323,7 @@ svg {
 }
 .logo_image {
     display: block;
-    width: 100%;
+    width: 50%;
 }
 .menu-list_container:after {
     content: "";
@@ -1742,7 +1742,7 @@ svg {
 }
 .menu-list.-navigation {
     font-display: swap;
-    font-family: "raleway", "Helvetica", "Arial", sans-serif;
+    font-family:"karma", "Times", "Times New Roman", serif;
     font-size: 1.25em;
     font-weight: 800;
     text-transform: lowercase;
@@ -1788,9 +1788,10 @@ svg {
 .menu-list.-navigation .menu-list_item.-parent:hover > .menu-list_toggle,
 .menu-list.-navigation .menu-list_item.-parent.is-active > .menu-list_toggle {
     background-color: #f8a577;
-    background-color: var(--tertiary_alt);
+    background-color: #FFFFFF;
+  /*  background-color: var(--tertiary_alt); */
     color: #000;
-    color: var(--dark);
+    color: #2E3C97;
 }
 .menu-list.-navigation.-light .menu-list_link:focus,
 .menu-list.-navigation.-light .menu-list_link:hover,
@@ -1804,8 +1805,8 @@ svg {
     color: var(--quinary);
 }
 .menu-list.-navigation .menu-list.-tier1 {
-    background-color: #f8a577;
-    background-color: var(--tertiary_alt);
+    background-color: #ffffff;
+    background-color: #ffffff;
     font-size: 0.9em;
 }
 .menu-list.-navigation .menu-list.-tier1::before,
@@ -1851,7 +1852,8 @@ svg {
 }
 .menu-list.-navigation .menu-list.-tier2 {
     background-color: #f8a577;
-    background-color: var(--tertiary_alt);
+    background-color: #FFFFFF;
+    /*background-color: var(--tertiary_alt);*/
     font-size: 0.88889em;
 }
 .menu-list.-navigation .menu-list.-tier2:not(.-mega)::before,
@@ -3896,8 +3898,10 @@ body {
     max-width: 96.25rem;
 }
 .navigation-block.-fullbleed {
-    background: #f58547;
-    background-color: var(--tertiary);
+    background: #FF893D;
+    background-color: #FF893D;
+    
+    border-bottom: solid #FFFFFF 1px;
 }
 .navigation-block.-fullbleed > .navigation_inner {
     background: none;
